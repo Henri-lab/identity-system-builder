@@ -9,6 +9,7 @@
   <img alt="ASP v0.1.0" src="https://img.shields.io/badge/protocol-ASP%20v0.1.0-blueviolet">
   <img alt="Conformance" src="https://img.shields.io/badge/conformance-S01--S20_%2B_D1--D5-success">
   <img alt="Version" src="https://img.shields.io/badge/version-v0.1.0-informational">
+  <img alt="Validate" src="https://github.com/Henri-lab/identity-system-builder/actions/workflows/validate.yml/badge.svg">
 </p>
 
 把「用户认证」做成一份**可直接执行的构建技能**：任何代码能力达标的 agent 读它就能按档位
