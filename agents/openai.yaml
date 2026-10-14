@@ -1,0 +1,4 @@
+interface:
+  display_name: "身份认证系统构建器"
+  short_description: "按目的与规模选档后生成可复用的身份认证系统构建技能"
+  default_prompt: "Use $identity-system-builder to 确认目的与规模并生成一份可复用的身份认证系统构建技能。"

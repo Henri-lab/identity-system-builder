@@ -1,0 +1,36 @@
+---
+name: <project-name>-identity-builder
+description: 为 <项目名> 实现并维护身份认证（注册/登录/会话/验证/重置/封禁），验收对齐 ASP 等级与 S 向量、D 判据。
+---
+
+# <项目名> 身份认证构建技能
+
+## 目标与非目标
+
+- 目标：<本项目认证范围，档位 I? 的结论>
+- 非目标：机器身份/SSH、权限引擎（P3 前）、自研密码学
+
+## 分支决策表
+
+<访谈结论：目的/规模/硬约束 + 档位 + 理由 + 未确认假设>
+
+## 数据模型
+
+<按 references/data-model.md 裁剪：users / user_identities / password_credentials / sessions / verification_codes>
+
+## 认证链路
+
+<注册 → 验证 → 登录 → 会话 → 重置/封禁/注销；Cookie 属性、限流、轮换>
+
+## 里程碑与验收
+
+- 每阶段对齐 ASP conformance 的 S-01~S-20 与 D-1~D-5；真实数据库端到端冒烟；
+- 声明 ASP 符合性等级；MUST 与 D 判据全过才算可用。
+
+## 运维
+
+<密钥管理、备份、会话撤销入口、锁定排查>
+
+## 与业务系统的边界
+
+只发 principal；MSP 消费 principal，权益判权在 MSP Entitlement。
