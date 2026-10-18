@@ -48,3 +48,4 @@
 3. 没有未完成的待办标记；新增条目格式合规、未含机密；
 4. 副本已同步到 `~/.codex/skills/`。
 5. 新增原则/概念前查 agent-skills-index 的 `concept-map.md`：已有则引用不复制，新概念先登记权威位置。
+6. 决策回填与提升规则见 agent-skills-index 的 `conventions/knowledge-evolution.md`（证据等级：真实反例 > 推理）。
