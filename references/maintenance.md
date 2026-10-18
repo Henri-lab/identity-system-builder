@@ -32,8 +32,7 @@
 
 ## 5. 同步与版本
 
-**唯一上游：独立开源仓库（identity-system-builder）。** `platform-kit/skills/` 为 vendored 副本，
-`~/.codex/skills/` 为安装副本——编辑只在上游，单向同步（上游 → vendored → 安装副本）。
+**唯一上游：独立开源仓库（identity-system-builder）。** `~/.codex/skills/` 为安装副本——编辑只在上游，单向同步（上游 → 安装副本）。
 
 ## 6. 变更记录
 
